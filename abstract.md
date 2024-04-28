@@ -1,3 +1,6 @@
+---
+title: Abstract interpretation
+---
 Abstract Interpretation
 
 The abstract describes a study on the internal mechanics of language model computations, specifically focusing on a phenomenon named the "Hydra effect". This effect refers to a compensatory mechanism within language models where the ablation (or removal) of one attention layer causes another layer to increase its compensatory action, effectively "repairing" itself. Additionally, the study looks at the roles of late Multilayer Perceptrons (MLPs) in moderating outputs to prevent overfitting to the most likely token. The ablation studies show that language model layers are relatively independent, with each layer's modifications affecting only a few others. This resilience is observed even in models that haven't been trained with dropout techniques, suggesting that language models have inherent self-repair capabilities that help maintain performance stability.
